@@ -1,4 +1,5 @@
 import React from "react";
+import About from "./pages/About";
 import Home from "./components/Home";
 import NavBar from "./components/NavBar";
 
@@ -7,6 +8,7 @@ function App(){
     <div>
       {/* <NavBar /> */}
       <Home />
+      <About />
     </div>
   );
 }
